@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PinCushion_Example' do
+  pod 'PinCushion', :path => '../'
+
+  target 'PinCushion_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
