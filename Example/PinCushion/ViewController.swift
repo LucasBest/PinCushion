@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         PinCushion.debugOptions = .warnTranslatesAutoResizeMaskIntoConstraints
         
         let redView = UIView()
-        redView.translatesAutoresizingMaskIntoConstraints = false
         redView.backgroundColor = UIColor.red
         
         redView.pin(.width, constant: 100.0)
@@ -29,7 +28,6 @@ class ViewController: UIViewController {
         redView.pinInSuperview([.leading], constant:15.0)
         
         let blueView = UIView()
-        blueView.translatesAutoresizingMaskIntoConstraints = false
         blueView.backgroundColor = UIColor.blue
         
         self.view.addSubview(blueView)
@@ -41,7 +39,6 @@ class ViewController: UIViewController {
         blueView.pin(.leading, to:redView, .trailing, constant: 30.0)
         
         let yellowView = UIView()
-        yellowView.translatesAutoresizingMaskIntoConstraints = false
         yellowView.backgroundColor = UIColor.yellow
         
         self.view.addSubview(yellowView)
@@ -53,18 +50,18 @@ class ViewController: UIViewController {
         
         
         let blackView = UIView()
-        blackView.translatesAutoresizingMaskIntoConstraints = false
         blackView.backgroundColor = UIColor.black
         
         self.view.addSubview(blackView)
         
-        blackView.pinInSuperview([.bottom], constant:20.0)
+        let constraints = blackView.pinInSuperview([.bottom], constant:20.0)
+        print("Visual Layout: V:[blackView]-(20)-|, Constraint:", constraints[.bottom] ?? "")
+        
         blackView.pin(.width, constant:200.0)
         blackView.pin(.height, constant:100.0)
         blackView.pinInSuperview([.centerX])
         
         let greenView = UIView()
-        greenView.translatesAutoresizingMaskIntoConstraints = false
         greenView.backgroundColor = UIColor.green
         
         self.view.addSubview(greenView)
