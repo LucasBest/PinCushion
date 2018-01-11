@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         print("Visual Layout: V:[blackView]-(20)-|, Constraint:", constraints[.bottom] ?? "")
         
         blackView.pin(.width, constant:200.0)
-        blackView.pin(.height, constant:100.0)
+        blackView.pin(.height, constant:100.0, priority:UILayoutPriority(rawValue:999))
         blackView.pinInSuperview([.centerX])
         
         let greenView = UIView()
