@@ -80,10 +80,18 @@ public extension UIView{
 
 extension UIView{
     func commonSuperviewWith(_ view:UIView) -> UIView?{
-        let myHierachy = Set(self.viewHierarchy())
-        let viewHierarchy = Set(view.viewHierarchy())
+        let myHierachy = self.viewHierarchy().reversed()
+        let viewHierarchy = view.viewHierarchy().reversed()
         
-        return myHierachy.intersection(viewHierarchy).first
+        for myView in myHierachy{
+            for view in viewHierarchy{
+                if myView == view{
+                    return view
+                }
+            }
+        }
+        
+        return nil
     }
     
     func viewHierarchy() -> [UIView]{
