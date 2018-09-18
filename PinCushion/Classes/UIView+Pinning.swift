@@ -10,7 +10,7 @@ import UIKit
 public extension UIView{
     
     @discardableResult
-    func pin(target:Any? = nil, _ targetAttribute:NSLayoutAttribute, to destination:Any? = nil, _ destinationAttribute:NSLayoutAttribute = .notAnAttribute, _ relation:NSLayoutRelation = .equal, multiplier:CGFloat = 1.0, constant:CGFloat = 0.0, priority:UILayoutPriority = .required, automaticallySetTranslatesAutoresizingMaskIntoConstraints:Bool = true) -> (addedToView:UIView, constraint:NSLayoutConstraint){
+    func pin(target:Any? = nil, _ targetAttribute:NSLayoutConstraint.Attribute, to destination:Any? = nil, _ destinationAttribute:NSLayoutConstraint.Attribute = .notAnAttribute, _ relation:NSLayoutConstraint.Relation = .equal, multiplier:CGFloat = 1.0, constant:CGFloat = 0.0, priority:UILayoutPriority = .required, automaticallySetTranslatesAutoresizingMaskIntoConstraints:Bool = true) -> (addedToView:UIView, constraint:NSLayoutConstraint){
         
         if automaticallySetTranslatesAutoresizingMaskIntoConstraints{
             self.translatesAutoresizingMaskIntoConstraints = false
@@ -44,12 +44,12 @@ public extension UIView{
     }
     
     @discardableResult
-    func pinInSuperview(_ attrubutes:[NSLayoutAttribute], relation:NSLayoutRelation = .equal, multiplier:CGFloat = 1.0, constant:CGFloat = 0.0, priority:UILayoutPriority = .required, automaticallySetTranslatesAutoresizingMaskIntoConstraints:Bool = true) -> [NSLayoutAttribute : NSLayoutConstraint]{
+    func pinInSuperview(_ attrubutes:[NSLayoutConstraint.Attribute], relation:NSLayoutConstraint.Relation = .equal, multiplier:CGFloat = 1.0, constant:CGFloat = 0.0, priority:UILayoutPriority = .required, automaticallySetTranslatesAutoresizingMaskIntoConstraints:Bool = true) -> [NSLayoutConstraint.Attribute : NSLayoutConstraint]{
         if PinCushion.debugOptions.contains(.warnViewHasNoSuperview) && self.superview == nil{
             print("Warning: attempt to pin view to its superview when superview is nil, some constraints may not be added.")
         }
         
-        var constraints = [NSLayoutAttribute : NSLayoutConstraint]()
+        var constraints = [NSLayoutConstraint.Attribute : NSLayoutConstraint]()
         
         for attrubute in attrubutes{
             switch attrubute{

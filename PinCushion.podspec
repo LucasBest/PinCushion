@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PinCushion'
-  s.version          = '1.0.2'
+  s.version          = '1.1.0'
   s.summary          = 'An Autolayout extension wrapping NSLayoutConstraint for easier constraint logic.'
 
 # This description is used to generate tags and improve search results.
