@@ -6,281 +6,313 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0095BC2C120F140F3F8139F008569F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		18860FD9A8EB45E5C315600AC7D3FBAE /* Pods-PinCushion_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BF8C1AFEE7BDF32CAD311F462106B /* Pods-PinCushion_Example-dummy.m */; };
-		66E4AEA6710B7776D5E054A39D3F4965 /* PinCushion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B11FF462326A62B82C5C89D0E53DF0 /* PinCushion-dummy.m */; };
-		78497AE4216A1E6C66D9F1FE4B748A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9C661DD61FD258EA00D05493 /* PinCushion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C661DD51FD258EA00D05493 /* PinCushion.swift */; };
-		9CEE13B21FDAD93800012037 /* UIView+Pinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE13B11FDAD93800012037 /* UIView+Pinning.swift */; };
-		C211BCD01A917EDDBA294BCDFA32751B /* Pods-PinCushion_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5590D1A4B394AF1784892CCDDFC17936 /* Pods-PinCushion_Tests-dummy.m */; };
-		C495F725FEF770719613D9E791FB0F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CF146FEC1A5E933435B5D0D0827CB5F4 /* PinCushion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF117DF520EA91B33729653E663FE445 /* PinCushion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1B6565BE2EDD5D642B2E97CF7969AF1 /* Pods-PinCushion_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 597FBDA4893843E3B89F5C8DF074B857 /* Pods-PinCushion_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F115DB48A9423D645563C53F19095CA5 /* Pods-PinCushion_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D33990C68F6C64972470DAF8D74DD5 /* Pods-PinCushion_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BA9509D0CD810C4988518A50966070B /* Pods-PinCushion_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E45997DE5BDBA569CF895F958378FCB4 /* Pods-PinCushion_Example-dummy.m */; };
+		1B5E5D853907F924FE21E4BBF9277694 /* PinCushion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF004FB84382747D3FF2C2F5536097E9 /* PinCushion.swift */; };
+		302A502A222EAA55625E5C08B2DD6484 /* Pods-PinCushion_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEE8EA9C590415D233C1AFD6B75B17F /* Pods-PinCushion_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34828710F5CEC7ABCEA9F3B22D32719A /* Pods-PinCushion_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4427AB3CC01208A993BE7ACFDF3DD93 /* Pods-PinCushion_Tests-dummy.m */; };
+		832B6C77E8D5AA3B77C220FF7239716F /* PinCushion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC76307BA49BADA19D14602DB34DED4C /* PinCushion-dummy.m */; };
+		895B8665A6A3C342A507C68F30A47842 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		92947CC748F26BD585526BF2DDFCFB05 /* Pods-PinCushion_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A73B3108B9F9931B82CEACF6940AFB52 /* Pods-PinCushion_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0D838B0ADD312EBB8EE60A61EA49E71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		B30AC4680AB6A37FC0BA3E9730E19364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		C22501E37573C638473EDDCA37BB3C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		D7CA1F099514A33009B2484A479464C1 /* UIView+Pinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7283B8202FF039B0EA5D9E06C8FCBC /* UIView+Pinning.swift */; };
+		E3DE189FAF3BCF7113A23DC01008F969 /* PinCushion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C9545A7BCF4F2DCF139E3AA38561E8 /* PinCushion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3BC57F4555EA9887D45D49F9BEC21F02 /* PBXContainerItemProxy */ = {
+		24B4B8D36C35C480533D89854579A244 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D59621C08E6A7315B54A35CA2952FEB0;
+			remoteGlobalIDString = D84FAC0909ECA4A7B8AE084D37A747D8;
+			remoteInfo = "Pods-PinCushion_Example";
+		};
+		A184721710FEA0C6CDC84F1A63C173A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A22BAB7D0A8301527D90424293EF8AA;
 			remoteInfo = PinCushion;
+		};
+		EA7ADE095BAA9CD16BCA71CCF537CCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012CD934EBD23E4CFA3258C290AE26D8 /* Pods-PinCushion_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCushion_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		04995CEF64B6A4557C0146FCE4EF76DE /* Pods-PinCushion_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinCushion_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0FE57FAB21FB4FA648FE6D6514F40E00 /* Pods-PinCushion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Example.release.xcconfig"; sourceTree = "<group>"; };
-		110CFA820B8AF1ACCB4DC7C20EBF879B /* Pods-PinCushion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		19A0BE48A57E2A058C8A4FF397B85C7F /* Pods-PinCushion_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5590D1A4B394AF1784892CCDDFC17936 /* Pods-PinCushion_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinCushion_Tests-dummy.m"; sourceTree = "<group>"; };
-		597FBDA4893843E3B89F5C8DF074B857 /* Pods-PinCushion_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinCushion_Example-umbrella.h"; sourceTree = "<group>"; };
-		5EEA752E241AAD1E43162E1FED43C824 /* Pods-PinCushion_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinCushion_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		774B021E47CE6164F1CB60B4FCAAF4B3 /* Pods-PinCushion_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCushion_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		829BF8C1AFEE7BDF32CAD311F462106B /* Pods-PinCushion_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinCushion_Example-dummy.m"; sourceTree = "<group>"; };
-		853BB1274478769721D50F1A28E671E0 /* Pods-PinCushion_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PinCushion_Tests.modulemap"; sourceTree = "<group>"; };
-		879A8FB1E867FBA3C8E296B3D70FCD78 /* Pods-PinCushion_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinCushion_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		91528B73475286E259A035A08555F823 /* Pods-PinCushion_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PinCushion_Example.modulemap"; sourceTree = "<group>"; };
-		92F936B6A7C57A9A9B1483B9C0D7D992 /* Pods-PinCushion_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinCushion_Tests-resources.sh"; sourceTree = "<group>"; };
-		93476A7681A08AFCEEB3DFEEF2FEEAEF /* Pods_PinCushion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinCushion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C661DD51FD258EA00D05493 /* PinCushion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinCushion.swift; path = PinCushion/Classes/PinCushion.swift; sourceTree = "<group>"; };
-		9CEE13B11FDAD93800012037 /* UIView+Pinning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Pinning.swift"; path = "PinCushion/Classes/UIView+Pinning.swift"; sourceTree = "<group>"; };
-		9F110C985A497E852544AA0E01CC65FA /* PinCushion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinCushion.xcconfig; sourceTree = "<group>"; };
-		AB5BAA904D0FA8994BA84D6E2AA63E40 /* Pods-PinCushion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD4C3EAB093D8D1E411B5FDBC6CC3639 /* PinCushion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinCushion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE51ABB573AD6EEE5E2EDFD31E2E4459 /* PinCushion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PinCushion.modulemap; sourceTree = "<group>"; };
-		AF117DF520EA91B33729653E663FE445 /* PinCushion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCushion-umbrella.h"; sourceTree = "<group>"; };
-		B5D33990C68F6C64972470DAF8D74DD5 /* Pods-PinCushion_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinCushion_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C5C8FC060194C5893AF25AAD96959339 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7E0F76EC9A339EBB4957F6B8536F649 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBE6BB7B6B410CA304100937FC6C77E7 /* Pods-PinCushion_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinCushion_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CF69E9A657459BFB8866AC7435A47203 /* Pods-PinCushion_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinCushion_Example-resources.sh"; sourceTree = "<group>"; };
-		D7A3B17724D2679F85FC9482236FCC5A /* PinCushion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCushion-prefix.pch"; sourceTree = "<group>"; };
-		F322598A85BD5E5DC92C7CB33949C05D /* Pods_PinCushion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinCushion_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F578F30D0E7D2651F98C8E06893DD91B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8B11FF462326A62B82C5C89D0E53DF0 /* PinCushion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinCushion-dummy.m"; sourceTree = "<group>"; };
+		026A2D9C79E4C3CABDE37EACB10F73A6 /* Pods-PinCushion_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0500F293C57B4784F3112522348EFC29 /* PinCushion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinCushion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		068FEDE89C5C61E31770DA947B6054BA /* PinCushion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinCushion-Info.plist"; sourceTree = "<group>"; };
+		0E5AC60502F28ECD1D42FD73453F976D /* PinCushion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinCushion.xcconfig; sourceTree = "<group>"; };
+		358CC3F9149743F6A2F3CE13342078DE /* Pods_PinCushion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinCushion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42238722F72E3739A2806ECBD524ACB1 /* PinCushion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PinCushion.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43F784D4161406ED757FC84EEB7D4E19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		48233B261B41A2A88E91034694A5A257 /* Pods-PinCushion_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PinCushion_Example.modulemap"; sourceTree = "<group>"; };
+		4BEE8EA9C590415D233C1AFD6B75B17F /* Pods-PinCushion_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinCushion_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4CDA26B6D7ED25F38FC3F87AB43EB569 /* Pods-PinCushion_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCushion_Tests-Info.plist"; sourceTree = "<group>"; };
+		666514F21A185F45A857B4C0277B7A3B /* Pods-PinCushion_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinCushion_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68C9545A7BCF4F2DCF139E3AA38561E8 /* PinCushion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCushion-umbrella.h"; sourceTree = "<group>"; };
+		69F41AC624DC912D28FDBAC6CFB56D04 /* PinCushion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCushion-prefix.pch"; sourceTree = "<group>"; };
+		7DF4370DF464216EAE5C053802321ABF /* Pods-PinCushion_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinCushion_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82342E4D96E99FBDC87F2350C59DF1C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83B1E55026156FD267F36E0E3B42ECC4 /* PinCushion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PinCushion.modulemap; sourceTree = "<group>"; };
+		854D6A46C0929A6F867ACF3DC0AEAE41 /* Pods-PinCushion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		90BEFD06128E8E3AEEA0F404A9B628D2 /* Pods_PinCushion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinCushion_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9375BFFE3BF09A9FE7F18517E7D4BCE4 /* Pods-PinCushion_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCushion_Example-Info.plist"; sourceTree = "<group>"; };
+		9BB6A636294680CBD58DBEC1EA7875C6 /* Pods-PinCushion_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCushion_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A73B3108B9F9931B82CEACF6940AFB52 /* Pods-PinCushion_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinCushion_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB3231DD8996730950B1B997385B7B86 /* Pods-PinCushion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B95158934663FC858FC1A06FBE1B249E /* Pods-PinCushion_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PinCushion_Tests.modulemap"; sourceTree = "<group>"; };
+		BA8562CC056441FC19A5D7F679C921F9 /* Pods-PinCushion_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinCushion_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDB0C52C4B2A1D9988FF26F73439E9CB /* Pods-PinCushion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinCushion_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CACA49C90E18C7579DFB359D01D2C16F /* Pods-PinCushion_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinCushion_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CC76307BA49BADA19D14602DB34DED4C /* PinCushion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinCushion-dummy.m"; sourceTree = "<group>"; };
+		DA7283B8202FF039B0EA5D9E06C8FCBC /* UIView+Pinning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Pinning.swift"; path = "PinCushion/Classes/UIView+Pinning.swift"; sourceTree = "<group>"; };
+		E45997DE5BDBA569CF895F958378FCB4 /* Pods-PinCushion_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinCushion_Example-dummy.m"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4427AB3CC01208A993BE7ACFDF3DD93 /* Pods-PinCushion_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinCushion_Tests-dummy.m"; sourceTree = "<group>"; };
+		FF004FB84382747D3FF2C2F5536097E9 /* PinCushion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinCushion.swift; path = PinCushion/Classes/PinCushion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A6B838119EAD65AE3B6CCCA7AB2A924 /* Frameworks */ = {
+		799F0220871D9C7D52223AA15AFEC31C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0095BC2C120F140F3F8139F008569F8E /* Foundation.framework in Frameworks */,
+				A0D838B0ADD312EBB8EE60A61EA49E71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		995094232E1386E3A492B5919D6F769F /* Frameworks */ = {
+		7CB17D3DAFA7D5C5313866DA407C0C49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78497AE4216A1E6C66D9F1FE4B748A89 /* Foundation.framework in Frameworks */,
+				C22501E37573C638473EDDCA37BB3C51 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B78B60E1C4160931E92D4A3FC00F2541 /* Frameworks */ = {
+		D984206CEBCA744D894E90B83EF1F468 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C495F725FEF770719613D9E791FB0F7B /* Foundation.framework in Frameworks */,
+				B30AC4680AB6A37FC0BA3E9730E19364 /* Foundation.framework in Frameworks */,
+				895B8665A6A3C342A507C68F30A47842 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05CC3689A7EE79C448C6F2A0AD9F157D /* Pods-PinCushion_Tests */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C7E0F76EC9A339EBB4957F6B8536F649 /* Info.plist */,
-				853BB1274478769721D50F1A28E671E0 /* Pods-PinCushion_Tests.modulemap */,
-				04995CEF64B6A4557C0146FCE4EF76DE /* Pods-PinCushion_Tests-acknowledgements.markdown */,
-				012CD934EBD23E4CFA3258C290AE26D8 /* Pods-PinCushion_Tests-acknowledgements.plist */,
-				5590D1A4B394AF1784892CCDDFC17936 /* Pods-PinCushion_Tests-dummy.m */,
-				CBE6BB7B6B410CA304100937FC6C77E7 /* Pods-PinCushion_Tests-frameworks.sh */,
-				92F936B6A7C57A9A9B1483B9C0D7D992 /* Pods-PinCushion_Tests-resources.sh */,
-				B5D33990C68F6C64972470DAF8D74DD5 /* Pods-PinCushion_Tests-umbrella.h */,
-				AB5BAA904D0FA8994BA84D6E2AA63E40 /* Pods-PinCushion_Tests.debug.xcconfig */,
-				110CFA820B8AF1ACCB4DC7C20EBF879B /* Pods-PinCushion_Tests.release.xcconfig */,
-			);
-			name = "Pods-PinCushion_Tests";
-			path = "Target Support Files/Pods-PinCushion_Tests";
-			sourceTree = "<group>";
-		};
-		1F17E3B3BA05CB44CBEDB7564756D023 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BF2706D0369C23ECDA3523051476A053 /* Pods-PinCushion_Example */,
-				05CC3689A7EE79C448C6F2A0AD9F157D /* Pods-PinCushion_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4B5A0C8455B44B2DEF60481901F93512 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D4E978AEA8F8BACCE40EAA37A1527305 /* PinCushion */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4B5A0C8455B44B2DEF60481901F93512 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DA27FEAFF50236C3814F91682CDB6560 /* Products */,
-				1F17E3B3BA05CB44CBEDB7564756D023 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		81007DD03531A454778A973497CE248D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5C8FC060194C5893AF25AAD96959339 /* Info.plist */,
-				AE51ABB573AD6EEE5E2EDFD31E2E4459 /* PinCushion.modulemap */,
-				9F110C985A497E852544AA0E01CC65FA /* PinCushion.xcconfig */,
-				F8B11FF462326A62B82C5C89D0E53DF0 /* PinCushion-dummy.m */,
-				D7A3B17724D2679F85FC9482236FCC5A /* PinCushion-prefix.pch */,
-				AF117DF520EA91B33729653E663FE445 /* PinCushion-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PinCushion";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF2706D0369C23ECDA3523051476A053 /* Pods-PinCushion_Example */ = {
+		190B9266E86F8F0BFA350C56B73D0067 /* PinCushion */ = {
 			isa = PBXGroup;
 			children = (
-				F578F30D0E7D2651F98C8E06893DD91B /* Info.plist */,
-				91528B73475286E259A035A08555F823 /* Pods-PinCushion_Example.modulemap */,
-				879A8FB1E867FBA3C8E296B3D70FCD78 /* Pods-PinCushion_Example-acknowledgements.markdown */,
-				774B021E47CE6164F1CB60B4FCAAF4B3 /* Pods-PinCushion_Example-acknowledgements.plist */,
-				829BF8C1AFEE7BDF32CAD311F462106B /* Pods-PinCushion_Example-dummy.m */,
-				5EEA752E241AAD1E43162E1FED43C824 /* Pods-PinCushion_Example-frameworks.sh */,
-				CF69E9A657459BFB8866AC7435A47203 /* Pods-PinCushion_Example-resources.sh */,
-				597FBDA4893843E3B89F5C8DF074B857 /* Pods-PinCushion_Example-umbrella.h */,
-				19A0BE48A57E2A058C8A4FF397B85C7F /* Pods-PinCushion_Example.debug.xcconfig */,
-				0FE57FAB21FB4FA648FE6D6514F40E00 /* Pods-PinCushion_Example.release.xcconfig */,
-			);
-			name = "Pods-PinCushion_Example";
-			path = "Target Support Files/Pods-PinCushion_Example";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D4E978AEA8F8BACCE40EAA37A1527305 /* PinCushion */ = {
-			isa = PBXGroup;
-			children = (
-				9C661DD51FD258EA00D05493 /* PinCushion.swift */,
-				9CEE13B11FDAD93800012037 /* UIView+Pinning.swift */,
-				81007DD03531A454778A973497CE248D /* Support Files */,
+				FF004FB84382747D3FF2C2F5536097E9 /* PinCushion.swift */,
+				DA7283B8202FF039B0EA5D9E06C8FCBC /* UIView+Pinning.swift */,
+				61BD2AA02B7306E1C0064CF231B2E24B /* Pod */,
+				DB3A1C0B9470E73BCE9DFBF8FAE562B6 /* Support Files */,
 			);
 			name = PinCushion;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		DA27FEAFF50236C3814F91682CDB6560 /* Products */ = {
+		468373B403CD748E4C0D9CB732C92210 /* Pods-PinCushion_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				AD4C3EAB093D8D1E411B5FDBC6CC3639 /* PinCushion.framework */,
-				F322598A85BD5E5DC92C7CB33949C05D /* Pods_PinCushion_Example.framework */,
-				93476A7681A08AFCEEB3DFEEF2FEEAEF /* Pods_PinCushion_Tests.framework */,
+				B95158934663FC858FC1A06FBE1B249E /* Pods-PinCushion_Tests.modulemap */,
+				7DF4370DF464216EAE5C053802321ABF /* Pods-PinCushion_Tests-acknowledgements.markdown */,
+				BA8562CC056441FC19A5D7F679C921F9 /* Pods-PinCushion_Tests-acknowledgements.plist */,
+				F4427AB3CC01208A993BE7ACFDF3DD93 /* Pods-PinCushion_Tests-dummy.m */,
+				4CDA26B6D7ED25F38FC3F87AB43EB569 /* Pods-PinCushion_Tests-Info.plist */,
+				4BEE8EA9C590415D233C1AFD6B75B17F /* Pods-PinCushion_Tests-umbrella.h */,
+				854D6A46C0929A6F867ACF3DC0AEAE41 /* Pods-PinCushion_Tests.debug.xcconfig */,
+				AB3231DD8996730950B1B997385B7B86 /* Pods-PinCushion_Tests.release.xcconfig */,
+			);
+			name = "Pods-PinCushion_Tests";
+			path = "Target Support Files/Pods-PinCushion_Tests";
+			sourceTree = "<group>";
+		};
+		61BD2AA02B7306E1C0064CF231B2E24B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43F784D4161406ED757FC84EEB7D4E19 /* LICENSE */,
+				42238722F72E3739A2806ECBD524ACB1 /* PinCushion.podspec */,
+				82342E4D96E99FBDC87F2350C59DF1C1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C5D8AB016777B107653532C562B07DE /* Pods-PinCushion_Example */ = {
+			isa = PBXGroup;
+			children = (
+				48233B261B41A2A88E91034694A5A257 /* Pods-PinCushion_Example.modulemap */,
+				666514F21A185F45A857B4C0277B7A3B /* Pods-PinCushion_Example-acknowledgements.markdown */,
+				9BB6A636294680CBD58DBEC1EA7875C6 /* Pods-PinCushion_Example-acknowledgements.plist */,
+				E45997DE5BDBA569CF895F958378FCB4 /* Pods-PinCushion_Example-dummy.m */,
+				CACA49C90E18C7579DFB359D01D2C16F /* Pods-PinCushion_Example-frameworks.sh */,
+				9375BFFE3BF09A9FE7F18517E7D4BCE4 /* Pods-PinCushion_Example-Info.plist */,
+				A73B3108B9F9931B82CEACF6940AFB52 /* Pods-PinCushion_Example-umbrella.h */,
+				026A2D9C79E4C3CABDE37EACB10F73A6 /* Pods-PinCushion_Example.debug.xcconfig */,
+				BDB0C52C4B2A1D9988FF26F73439E9CB /* Pods-PinCushion_Example.release.xcconfig */,
+			);
+			name = "Pods-PinCushion_Example";
+			path = "Target Support Files/Pods-PinCushion_Example";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		AD6228D668FA8B949FFAB17EC2A34343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0500F293C57B4784F3112522348EFC29 /* PinCushion.framework */,
+				90BEFD06128E8E3AEEA0F404A9B628D2 /* Pods_PinCushion_Example.framework */,
+				358CC3F9149743F6A2F3CE13342078DE /* Pods_PinCushion_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9AB22C801900AA6C69C85C00B831C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C5D8AB016777B107653532C562B07DE /* Pods-PinCushion_Example */,
+				468373B403CD748E4C0D9CB732C92210 /* Pods-PinCushion_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4B2D07B30721397C51DD9A31D671068 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				190B9266E86F8F0BFA350C56B73D0067 /* PinCushion */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C4B2D07B30721397C51DD9A31D671068 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				AD6228D668FA8B949FFAB17EC2A34343 /* Products */,
+				BE9AB22C801900AA6C69C85C00B831C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3A1C0B9470E73BCE9DFBF8FAE562B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83B1E55026156FD267F36E0E3B42ECC4 /* PinCushion.modulemap */,
+				0E5AC60502F28ECD1D42FD73453F976D /* PinCushion.xcconfig */,
+				CC76307BA49BADA19D14602DB34DED4C /* PinCushion-dummy.m */,
+				068FEDE89C5C61E31770DA947B6054BA /* PinCushion-Info.plist */,
+				69F41AC624DC912D28FDBAC6CFB56D04 /* PinCushion-prefix.pch */,
+				68C9545A7BCF4F2DCF139E3AA38561E8 /* PinCushion-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PinCushion";
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3F31C3C30D676FC94A49D469D49C9561 /* Headers */ = {
+		01A07297F2966743D0CE616ECD702B48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF146FEC1A5E933435B5D0D0827CB5F4 /* PinCushion-umbrella.h in Headers */,
+				302A502A222EAA55625E5C08B2DD6484 /* Pods-PinCushion_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F3EFE347EC286AA5AE77770482BE4DD /* Headers */ = {
+		4DA91DE6FD91574293EAD7D33325D6FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F115DB48A9423D645563C53F19095CA5 /* Pods-PinCushion_Tests-umbrella.h in Headers */,
+				92947CC748F26BD585526BF2DDFCFB05 /* Pods-PinCushion_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		849FC7AF9A058040211D567DAFBC3C56 /* Headers */ = {
+		9C7510F4A75C5E1D8EB0422704CE75C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B6565BE2EDD5D642B2E97CF7969AF1 /* Pods-PinCushion_Example-umbrella.h in Headers */,
+				E3DE189FAF3BCF7113A23DC01008F969 /* PinCushion-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0452ABC1A6CCBB0977D970EB417305E7 /* Pods-PinCushion_Example */ = {
+		5A22BAB7D0A8301527D90424293EF8AA /* PinCushion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F92C4A844A604B298D6881DE90B8A46 /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Example" */;
+			buildConfigurationList = 33B6DD3EEF6755F7CF63AC7D70783708 /* Build configuration list for PBXNativeTarget "PinCushion" */;
 			buildPhases = (
-				0E0452F25AE41B923007FF17B31BF5D5 /* Sources */,
-				1A6B838119EAD65AE3B6CCCA7AB2A924 /* Frameworks */,
-				849FC7AF9A058040211D567DAFBC3C56 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3528E4378E30FFC5E52FFA4823C09711 /* PBXTargetDependency */,
-			);
-			name = "Pods-PinCushion_Example";
-			productName = "Pods-PinCushion_Example";
-			productReference = F322598A85BD5E5DC92C7CB33949C05D /* Pods_PinCushion_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		60945C67236A52B81376A95DA6E6641B /* Pods-PinCushion_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0781454BAD67C4F9228DCD238220626C /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Tests" */;
-			buildPhases = (
-				C79D78A8272CB2735A484FE9BEFF612E /* Sources */,
-				995094232E1386E3A492B5919D6F769F /* Frameworks */,
-				6F3EFE347EC286AA5AE77770482BE4DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PinCushion_Tests";
-			productName = "Pods-PinCushion_Tests";
-			productReference = 93476A7681A08AFCEEB3DFEEF2FEEAEF /* Pods_PinCushion_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D59621C08E6A7315B54A35CA2952FEB0 /* PinCushion */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E773342BC80BB0D952B3D679FE27B1D /* Build configuration list for PBXNativeTarget "PinCushion" */;
-			buildPhases = (
-				E05ED3D186F641954F58DDBC013FC1E8 /* Sources */,
-				B78B60E1C4160931E92D4A3FC00F2541 /* Frameworks */,
-				3F31C3C30D676FC94A49D469D49C9561 /* Headers */,
+				9C7510F4A75C5E1D8EB0422704CE75C3 /* Headers */,
+				51EFD0C4546E65B9D0A29F983F59D14A /* Sources */,
+				D984206CEBCA744D894E90B83EF1F468 /* Frameworks */,
+				8423BD2658D8A4F5058FEDF9C09E03BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -288,85 +320,159 @@
 			);
 			name = PinCushion;
 			productName = PinCushion;
-			productReference = AD4C3EAB093D8D1E411B5FDBC6CC3639 /* PinCushion.framework */;
+			productReference = 0500F293C57B4784F3112522348EFC29 /* PinCushion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A86AEA6710C7EBB93E6AED077A73106B /* Pods-PinCushion_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4487D4D2FA4349E78F759E6E161D5063 /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Tests" */;
+			buildPhases = (
+				01A07297F2966743D0CE616ECD702B48 /* Headers */,
+				2DBF4093B8A07CAE1EBA2F8160FFD1CF /* Sources */,
+				799F0220871D9C7D52223AA15AFEC31C /* Frameworks */,
+				91D659DA1D48F8EFF58AF4C40ABB6ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F24333A1100A64089E7C82FD10EA6FB /* PBXTargetDependency */,
+			);
+			name = "Pods-PinCushion_Tests";
+			productName = "Pods-PinCushion_Tests";
+			productReference = 358CC3F9149743F6A2F3CE13342078DE /* Pods_PinCushion_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D84FAC0909ECA4A7B8AE084D37A747D8 /* Pods-PinCushion_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC2FB238EE6ECBA7E4679CB4F7679E5 /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Example" */;
+			buildPhases = (
+				4DA91DE6FD91574293EAD7D33325D6FD /* Headers */,
+				719E9C01AD01C5631D359328B1C918AF /* Sources */,
+				7CB17D3DAFA7D5C5313866DA407C0C49 /* Frameworks */,
+				3BA92D80F15265EC3176E8ECB2CB2D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20C4C7FFADC068A3B2E40F56414169D /* PBXTargetDependency */,
+				008E398349458E248F212DBD1FE13E5A /* PBXTargetDependency */,
+			);
+			name = "Pods-PinCushion_Example";
+			productName = "Pods-PinCushion_Example";
+			productReference = 90BEFD06128E8E3AEEA0F404A9B628D2 /* Pods_PinCushion_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1000;
-				TargetAttributes = {
-					D59621C08E6A7315B54A35CA2952FEB0 = {
-						LastSwiftMigration = 1000;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DA27FEAFF50236C3814F91682CDB6560 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AD6228D668FA8B949FFAB17EC2A34343 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D59621C08E6A7315B54A35CA2952FEB0 /* PinCushion */,
-				0452ABC1A6CCBB0977D970EB417305E7 /* Pods-PinCushion_Example */,
-				60945C67236A52B81376A95DA6E6641B /* Pods-PinCushion_Tests */,
+				5A22BAB7D0A8301527D90424293EF8AA /* PinCushion */,
+				D84FAC0909ECA4A7B8AE084D37A747D8 /* Pods-PinCushion_Example */,
+				A86AEA6710C7EBB93E6AED077A73106B /* Pods-PinCushion_Tests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3BA92D80F15265EC3176E8ECB2CB2D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423BD2658D8A4F5058FEDF9C09E03BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D659DA1D48F8EFF58AF4C40ABB6ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0E0452F25AE41B923007FF17B31BF5D5 /* Sources */ = {
+		2DBF4093B8A07CAE1EBA2F8160FFD1CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18860FD9A8EB45E5C315600AC7D3FBAE /* Pods-PinCushion_Example-dummy.m in Sources */,
+				34828710F5CEC7ABCEA9F3B22D32719A /* Pods-PinCushion_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C79D78A8272CB2735A484FE9BEFF612E /* Sources */ = {
+		51EFD0C4546E65B9D0A29F983F59D14A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C211BCD01A917EDDBA294BCDFA32751B /* Pods-PinCushion_Tests-dummy.m in Sources */,
+				832B6C77E8D5AA3B77C220FF7239716F /* PinCushion-dummy.m in Sources */,
+				1B5E5D853907F924FE21E4BBF9277694 /* PinCushion.swift in Sources */,
+				D7CA1F099514A33009B2484A479464C1 /* UIView+Pinning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E05ED3D186F641954F58DDBC013FC1E8 /* Sources */ = {
+		719E9C01AD01C5631D359328B1C918AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E4AEA6710B7776D5E054A39D3F4965 /* PinCushion-dummy.m in Sources */,
-				9CEE13B21FDAD93800012037 /* UIView+Pinning.swift in Sources */,
-				9C661DD61FD258EA00D05493 /* PinCushion.swift in Sources */,
+				0BA9509D0CD810C4988518A50966070B /* Pods-PinCushion_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3528E4378E30FFC5E52FFA4823C09711 /* PBXTargetDependency */ = {
+		008E398349458E248F212DBD1FE13E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = EA7ADE095BAA9CD16BCA71CCF537CCC7 /* PBXContainerItemProxy */;
+		};
+		9F24333A1100A64089E7C82FD10EA6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PinCushion_Example";
+			target = D84FAC0909ECA4A7B8AE084D37A747D8 /* Pods-PinCushion_Example */;
+			targetProxy = 24B4B8D36C35C480533D89854579A244 /* PBXContainerItemProxy */;
+		};
+		F20C4C7FFADC068A3B2E40F56414169D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PinCushion;
-			target = D59621C08E6A7315B54A35CA2952FEB0 /* PinCushion */;
-			targetProxy = 3BC57F4555EA9887D45D49F9BEC21F02 /* PBXContainerItemProxy */;
+			target = 5A22BAB7D0A8301527D90424293EF8AA /* PinCushion */;
+			targetProxy = A184721710FEA0C6CDC84F1A63C173A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A90EB55A027C1F1AD0F7883189043D3 /* Release */ = {
+		02ED62E9DD3DF5475D2182F974C7376B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FE57FAB21FB4FA648FE6D6514F40E00 /* Pods-PinCushion_Example.release.xcconfig */;
+			baseConfigurationReference = AB3231DD8996730950B1B997385B7B86 /* Pods-PinCushion_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -376,43 +482,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Tests/Pods-PinCushion_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PinCushion_Example/Pods-PinCushion_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PinCushion_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2774446A04DD6CE0918592E43C4C0D0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 110CFA820B8AF1ACCB4DC7C20EBF879B /* Pods-PinCushion_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PinCushion_Tests/Pods-PinCushion_Tests.modulemap";
@@ -420,7 +492,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PinCushion_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -430,16 +502,18 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -461,7 +535,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -481,21 +614,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		512E7293033B19BCC48FDADA72BD8ACE /* Debug */ = {
+		5B6E3D60C661A85DB5F95CE9CAF9348E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19A0BE48A57E2A058C8A4FF397B85C7F /* Pods-PinCushion_Example.debug.xcconfig */;
+			baseConfigurationReference = BDB0C52C4B2A1D9988FF26F73439E9CB /* Pods-PinCushion_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -505,9 +642,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Example/Pods-PinCushion_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PinCushion_Example/Pods-PinCushion_Example.modulemap";
@@ -515,110 +652,22 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PinCushion_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5F5AB33ADA7959496BA7F8333C48EABF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F110C985A497E852544AA0E01CC65FA /* PinCushion.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PinCushion/PinCushion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PinCushion/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PinCushion/PinCushion.modulemap";
-				PRODUCT_NAME = PinCushion;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9917B8843755B6C304FD3A9135F58A4F /* Debug */ = {
+		626F77D7C616353DB8AC85ACE9193566 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB5BAA904D0FA8994BA84D6E2AA63E40 /* Pods-PinCushion_Tests.debug.xcconfig */;
+			baseConfigurationReference = 026A2D9C79E4C3CABDE37EACB10F73A6 /* Pods-PinCushion_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -628,9 +677,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Example/Pods-PinCushion_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinCushion_Example/Pods-PinCushion_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		948AAF600AC5CB025A29F46CA5B2E34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854D6A46C0929A6F867ACF3DC0AEAE41 /* Pods-PinCushion_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinCushion_Tests/Pods-PinCushion_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PinCushion_Tests/Pods-PinCushion_Tests.modulemap";
@@ -638,7 +735,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PinCushion_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -647,10 +744,11 @@
 			};
 			name = Debug;
 		};
-		F86313FE2760E5305B29ED1FCC43EA37 /* Release */ = {
+		9B886CA1CA688D5FB2F84E5B6A3D582B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F110C985A497E852544AA0E01CC65FA /* PinCushion.xcconfig */;
+			baseConfigurationReference = 0E5AC60502F28ECD1D42FD73453F976D /* PinCushion.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -661,17 +759,62 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/PinCushion/PinCushion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PinCushion/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/PinCushion/PinCushion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PinCushion/PinCushion.modulemap";
+				PRODUCT_MODULE_NAME = PinCushion;
 				PRODUCT_NAME = PinCushion;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F60BFF7D6926998114AC6B968F34049C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5AC60502F28ECD1D42FD73453F976D /* PinCushion.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinCushion/PinCushion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinCushion/PinCushion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinCushion/PinCushion.modulemap";
+				PRODUCT_MODULE_NAME = PinCushion;
+				PRODUCT_NAME = PinCushion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -682,43 +825,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0781454BAD67C4F9228DCD238220626C /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Tests" */ = {
+		33B6DD3EEF6755F7CF63AC7D70783708 /* Build configuration list for PBXNativeTarget "PinCushion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9917B8843755B6C304FD3A9135F58A4F /* Debug */,
-				2774446A04DD6CE0918592E43C4C0D0E /* Release */,
+				9B886CA1CA688D5FB2F84E5B6A3D582B /* Debug */,
+				F60BFF7D6926998114AC6B968F34049C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4487D4D2FA4349E78F759E6E161D5063 /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				948AAF600AC5CB025A29F46CA5B2E34E /* Debug */,
+				02ED62E9DD3DF5475D2182F974C7376B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E773342BC80BB0D952B3D679FE27B1D /* Build configuration list for PBXNativeTarget "PinCushion" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F5AB33ADA7959496BA7F8333C48EABF /* Debug */,
-				F86313FE2760E5305B29ED1FCC43EA37 /* Release */,
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F92C4A844A604B298D6881DE90B8A46 /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Example" */ = {
+		5EC2FB238EE6ECBA7E4679CB4F7679E5 /* Build configuration list for PBXNativeTarget "Pods-PinCushion_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				512E7293033B19BCC48FDADA72BD8ACE /* Debug */,
-				0A90EB55A027C1F1AD0F7883189043D3 /* Release */,
+				626F77D7C616353DB8AC85ACE9193566 /* Debug */,
+				5B6E3D60C661A85DB5F95CE9CAF9348E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
+				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
